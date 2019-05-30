@@ -1,0 +1,26 @@
+{
+  "name": "hexo-deployer-qiniu",
+  "version": "1.0.0",
+  "description": "hexo deploy plug",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnnyDve/hexo-deployer-qiniu.git"
+  },
+  "keywords": [
+    "hexo",
+    "deploy",
+    "qiniu"
+  ],
+  "author": "johnny",
+  "license": "MIT",
+  "dependencies": {
+    "qiniu": "^7.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
