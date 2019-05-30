@@ -1,5 +1,5 @@
 {
-  "name": "hexo-deployer-qiniu",
+  "name": "hexo-deployer-qinius",
   "version": "1.0.0",
   "description": "hexo deploy plug",
   "main": "index.js",

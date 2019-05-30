@@ -5,10 +5,11 @@ describe('deploy', function() {
         deploy.call({
             public_dir:"E:\\repository\\hexo-deployer-qiniu\\test"
         },{
-            accessKey: "9z7tefG6u5kTJu2ROsWXXXXXXXXXXXXXXXXXXXX",
-            secretKey: "tqoc-bdB5K-YVNILQtrgXXXXXXXXXXXXXXXXXXXX",
+            accessKey: "9z7tefG6u5kTJu2ROsWFvAXXXXXXXXXXXXXXXXX",
+            secretKey: "tqoc-bdB5K-YVNILQtrgOqXXXXXXXXXXXXXXXXXX",
             zone: "Zone_z2",
-            scope: "blog"
+            scope: "blog",
+            dirsToRefresh:"http://psa0vuhj8.bkt.clouddn.com/"
         }).then(()=>{
             done();
         }).catch(err=>{

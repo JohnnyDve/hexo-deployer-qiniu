@@ -12,8 +12,12 @@ You can configure this plugin in _config.yml.
            secretKey: <secretKey>
            zone: <zone>
            scope: <scope>
-           expires: [expires] # default is 3600
-           cover: [true|false] # default is true
+           # example http://www.a.com/,http://www.b.cn/
+           dirsToRefresh: <dirsToRefresh> 
+           # default is 3600
+           expires: [expires]
+           # default is true
+           cover: [true|false]
 ```
 - **accessKey:** account  accessKey
 - **secretKey:** account secretKey
@@ -23,6 +27,7 @@ You can configure this plugin in _config.yml.
     - 华南 Zone_z2
     - 北美 Zone_na0
 - **scope:** bucket name
+- **dirsToRefresh:** cdn fresh dirs
 - **expires:** the expiration time for uploading tokens
 - **cover:** overlay upload
 
