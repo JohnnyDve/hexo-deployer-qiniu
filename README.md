@@ -1,7 +1,7 @@
 # hexo-deployer-qiniu
 Hexo`s Qiniu deployment plug-in
 # Installation
-$ npm install hexo-deployer-qiniu --save
+$ npm install hexo-deployer-qinius --save
 # Options
 You can configure this plugin in _config.yml.
 ``` yaml
