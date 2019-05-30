@@ -4,18 +4,17 @@ Hexo`s Qiniu deployment plug-in
 $ npm install hexo-deployer-qiniu --save
 # Options
 You can configure this plugin in _config.yml.
-<pre>
-# You can use this:
-deploy:
-       type: qiniu
-       accessKey: &lt;accessKey&gt;
-       secretKey: &lt;secretKey&gt;
-       zone: &lt;zone&gt;
-       scope: &lt;scope&gt;
-       expires: [expires] # default is 3600
-       cover: [true|false] # default is true
-</pre>
-
+``` yaml
+    # You can use this:
+    deploy:
+           type: qiniu
+           accessKey: <accessKey>
+           secretKey: <secretKey>
+           zone: <zone>
+           scope: <scope>
+           expires: [expires] # default is 3600
+           cover: [true|false] # default is true
+```
 - **accessKey:** account  accessKey
 - **secretKey:** account secretKey
 - **zone:** computer room corresponding to bucket
