@@ -1,7 +1,7 @@
 {
   "name": "hexo-deployer-qinius",
-  "version": "1.0.0",
-  "description": "hexo deploy plug",
+  "version": "1.0.1",
+  "description": "hexo deploy plugin",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
