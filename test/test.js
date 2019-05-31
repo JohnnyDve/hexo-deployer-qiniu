@@ -3,13 +3,13 @@ describe('deploy', function() {
     //Options need to be modified before testing
     it('upload success', function(done) {
         deploy.call({
-            public_dir:"E:\\repository\\hexo-deployer-qiniu\\test"
+            public_dir:"E:\\blog\\blog\\public"
         },{
             accessKey: "9z7tefG6u5kTJu2ROsWFvAXXXXXXXXXXXXXXXXX",
             secretKey: "tqoc-bdB5K-YVNILQtrgOqXXXXXXXXXXXXXXXXXX",
             zone: "Zone_z2",
             scope: "blog",
-            dirsToRefresh:"http://psa0vuhj8.bkt.clouddn.com/"
+            dirsToRefresh:"http://blog.icting.cn/"
         }).then(()=>{
             done();
         }).catch(err=>{
