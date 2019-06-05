@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-qinius",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "hexo deploy plugin",
   "main": "index.js",
   "scripts": {
